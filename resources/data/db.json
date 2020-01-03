@@ -2,42 +2,36 @@
   "products": [
     {
       "id": 1,
-      "productId": 1,
       "productName": "สลัดผัก",
       "unitPrice": "120",
       "thumbnail": "images/product/1.jpg"
     },
     {
       "id": 2,
-      "productId": 2,
       "productName": "ไก่ทอด",
       "unitPrice": "120",
       "thumbnail": "images/product/2.jpg"
     },
     {
       "id": 3,
-      "productId": 3,
       "productName": "บิงซู",
       "unitPrice": "120",
       "thumbnail": "images/product/3.jpg"
     },
     {
       "id": 4,
-      "productId": 4,
       "productName": "เฟรนฟราย",
       "unitPrice": "120",
       "thumbnail": "images/product/4.jpg"
     },
     {
       "id": 5,
-      "productId": 5,
       "productName": "เค้ก 3 ชิ้น",
       "unitPrice": "120",
       "thumbnail": "images/product/5.jpg"
     },
     {
       "id": 6,
-      "productId": 6,
       "productName": "กาแฟ เฮลตี้่ฟูด",
       "unitPrice": "120",
       "thumbnail": "images/product/6.jpg"
@@ -51,7 +45,6 @@
         {
           "product": {
             "id": 4,
-            "productId": 4,
             "productName": "เฟรนฟราย",
             "unitPrice": "120",
             "thumbnail": "images/product/4.jpg"
@@ -61,7 +54,6 @@
         {
           "product": {
             "id": 3,
-            "productId": 3,
             "productName": "บิงซู",
             "unitPrice": "120",
             "thumbnail": "images/product/3.jpg"
@@ -71,7 +63,6 @@
         {
           "product": {
             "id": 2,
-            "productId": 2,
             "productName": "ไก่ทอด",
             "unitPrice": "120",
             "thumbnail": "images/product/2.jpg"
@@ -88,7 +79,6 @@
         {
           "product": {
             "id": 3,
-            "productId": 3,
             "productName": "บิงซู",
             "unitPrice": "120",
             "thumbnail": "images/product/3.jpg"
@@ -98,7 +88,6 @@
         {
           "product": {
             "id": 2,
-            "productId": 2,
             "productName": "ไก่ทอด",
             "unitPrice": "120",
             "thumbnail": "images/product/2.jpg"
@@ -108,7 +97,6 @@
         {
           "product": {
             "id": 1,
-            "productId": 1,
             "productName": "สลัดผัก",
             "unitPrice": "120",
             "thumbnail": "images/product/1.jpg"
@@ -125,7 +113,6 @@
         {
           "product": {
             "id": 4,
-            "productId": 4,
             "productName": "เฟรนฟราย",
             "unitPrice": "120",
             "thumbnail": "images/product/4.jpg"
@@ -135,7 +122,6 @@
         {
           "product": {
             "id": 3,
-            "productId": 3,
             "productName": "บิงซู",
             "unitPrice": "120",
             "thumbnail": "images/product/3.jpg"
@@ -145,7 +131,6 @@
         {
           "product": {
             "id": 2,
-            "productId": 2,
             "productName": "ไก่ทอด",
             "unitPrice": "120",
             "thumbnail": "images/product/2.jpg"
@@ -162,7 +147,6 @@
         {
           "product": {
             "id": 4,
-            "productId": 4,
             "productName": "เฟรนฟราย",
             "unitPrice": "120",
             "thumbnail": "images/product/4.jpg"
@@ -179,7 +163,6 @@
         {
           "product": {
             "id": 4,
-            "productId": 4,
             "productName": "เฟรนฟราย",
             "unitPrice": "120",
             "thumbnail": "images/product/4.jpg"
@@ -196,7 +179,6 @@
         {
           "product": {
             "id": 2,
-            "productId": 2,
             "productName": "ไก่ทอด",
             "unitPrice": "120",
             "thumbnail": "images/product/2.jpg"
@@ -206,7 +188,6 @@
         {
           "product": {
             "id": 5,
-            "productId": 5,
             "productName": "เค้ก 3 ชิ้น",
             "unitPrice": "120",
             "thumbnail": "images/product/5.jpg"
@@ -216,7 +197,6 @@
         {
           "product": {
             "id": 6,
-            "productId": 6,
             "productName": "กาแฟ เฮลตี้่ฟูด",
             "unitPrice": "120",
             "thumbnail": "images/product/6.jpg"
@@ -233,7 +213,6 @@
         {
           "product": {
             "id": 4,
-            "productId": 4,
             "productName": "เฟรนฟราย",
             "unitPrice": "120",
             "thumbnail": "images/product/4.jpg"
@@ -243,7 +222,6 @@
         {
           "product": {
             "id": 3,
-            "productId": 3,
             "productName": "บิงซู",
             "unitPrice": "120",
             "thumbnail": "images/product/3.jpg"
@@ -253,7 +231,6 @@
         {
           "product": {
             "id": 2,
-            "productId": 2,
             "productName": "ไก่ทอด",
             "unitPrice": "120",
             "thumbnail": "images/product/2.jpg"
@@ -262,43 +239,6 @@
         }
       ],
       "id": 7
-    },
-    {
-      "orderedDate": "2019-12-28T02:35:14.473Z",
-      "totalPrice": 360,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "productId": 4,
-            "productName": "เฟรนฟราย",
-            "unitPrice": "120",
-            "thumbnail": "images/product/4.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 3,
-            "productId": 3,
-            "productName": "บิงซู",
-            "unitPrice": "120",
-            "thumbnail": "images/product/3.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 2,
-            "productId": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "120",
-            "thumbnail": "images/product/2.jpg"
-          },
-          "quantity": 1
-        }
-      ],
-      "id": 8
     }
   ]
 }

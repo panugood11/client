@@ -13,12 +13,6 @@
       "thumbnail": "images/product/2.jpg"
     },
     {
-      "id": 3,
-      "productName": "บิงซู",
-      "unitPrice": "120",
-      "thumbnail": "images/product/3.jpg"
-    },
-    {
       "id": 4,
       "productName": "เฟรนฟราย",
       "unitPrice": "120",
@@ -205,40 +199,6 @@
         }
       ],
       "id": 6
-    },
-    {
-      "orderedDate": "2019-12-28T02:35:01.178Z",
-      "totalPrice": 360,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "productName": "เฟรนฟราย",
-            "unitPrice": "120",
-            "thumbnail": "images/product/4.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 3,
-            "productName": "บิงซู",
-            "unitPrice": "120",
-            "thumbnail": "images/product/3.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "120",
-            "thumbnail": "images/product/2.jpg"
-          },
-          "quantity": 1
-        }
-      ],
-      "id": 7
     }
   ]
 }

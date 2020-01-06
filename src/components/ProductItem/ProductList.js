@@ -10,6 +10,7 @@ class ProductList extends Component {
           key={product.id}
           product={product}
           onAddOrder={this.props.onAddOrder}
+          onDelProduct = {this.props.onDelProduct}
         />
       ))
     );

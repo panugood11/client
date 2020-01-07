@@ -7,28 +7,10 @@
       "thumbnail": "images/product/1.jpg"
     },
     {
-      "id": 2,
-      "productName": "ไก่ทอด",
-      "unitPrice": "120",
-      "thumbnail": "images/product/2.jpg"
-    },
-    {
-      "id": 4,
-      "productName": "เฟรนฟราย",
-      "unitPrice": "120",
-      "thumbnail": "images/product/4.jpg"
-    },
-    {
       "id": 5,
       "productName": "เค้ก 3 ชิ้น",
       "unitPrice": "120",
       "thumbnail": "images/product/5.jpg"
-    },
-    {
-      "id": 6,
-      "productName": "กาแฟ เฮลตี้่ฟูด",
-      "unitPrice": "120",
-      "thumbnail": "images/product/6.jpg"
     }
   ],
   "orders": [

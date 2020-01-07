@@ -37,7 +37,7 @@ class ProductItem extends Component {
             </button>
             }
             {(this.props.onDelProduct || this.props.onEditProduct) && 
-            <button className="btn btn-info col-5 title" >
+            <button className="btn btn-info col-5 title" onClick={() => this.props.onEditProduct(this.props.product)}>
                 แก้ไข
             </button>
             }

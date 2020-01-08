@@ -1,1 +1,2 @@
 json-server --watch resources/data/db.json --port 3001
+npm install --save redux react-redux redux-thunk redux-form

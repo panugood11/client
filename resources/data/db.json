@@ -136,43 +136,6 @@
         }
       ],
       "id": 6
-    },
-    {
-      "orderedDate": "2020-01-10T11:27:42.360Z",
-      "totalPrice": 480,
-      "orders": [
-        {
-          "product": {
-            "id": 2,
-            "productId": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "120",
-            "thumbnail": "images/product/2.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 4,
-            "productId": 4,
-            "productName": "เฟรนฟราย",
-            "unitPrice": "120",
-            "thumbnail": "images/product/4.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 5,
-            "productId": 5,
-            "productName": "เค้ก 3 ชิ้น",
-            "unitPrice": "120",
-            "thumbnail": "images/product/5.jpg"
-          },
-          "quantity": 2
-        }
-      ],
-      "id": 7
     }
   ]
 }

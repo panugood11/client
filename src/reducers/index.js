@@ -1,12 +1,12 @@
 import { combineReducers } from "redux";
-import {reducer as reduxFrom} from "redux-form";
+import { reducer as reduxForm } from "redux-form";
 import ProductReducer from "./ProductReducer";
 import OrderReducer from "./OrderReducer";
 
 const rootReducer = combineReducers({
     orders: OrderReducer,
     products: ProductReducer,
-    from : reduxFrom
+    form : reduxForm
 })
 
 export default rootReducer;

@@ -5,6 +5,7 @@ import Home from "./components/containers/Home";
 import About from "./components/containers/About";
 import Order from "./components/containers/order/Order";
 import Product from "./components/containers/product/Product";
+import ProductEdit from "./components/containers/product/ProductEdit";
 import NotFound from "./components/containers/error/NotFound";
 
 class App extends Component {
@@ -15,8 +16,11 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/orders" component={Order} />
+
+
             <Route exact path="/products" component={Product} />
-            
+            <Route exact path="/products/add" component={ProductEdit} />
+            <Route exact path="/products/edit/:id" component={ProductEdit} />
             <Route component={NotFound} />
       </Switch>
     )

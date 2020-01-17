@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { reduxFrom } from "redux-form";
+import {reduxForm} from "redux-form";
 
 class ProductFrom extends Component {
     
@@ -13,5 +13,7 @@ class ProductFrom extends Component {
         )
     }
 }
-ProductFrom = reduxFrom({ from : "productFrom"})(ProductFrom);
+
+ProductFrom = reduxForm({ form : "productFrom"})(ProductFrom);
+
 export default ProductFrom;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
-import ProductFrom from "../../ProductItem/ProductFrom";
+import ProductForm from "../../ProductItem/ProductForm";
 import Footer from "../../Footer";
 
 class ProductEdit extends Component {
@@ -9,7 +9,7 @@ class ProductEdit extends Component {
             <div>
                 <Header />
                 <div className="container col-md-5">
-                    <ProductFrom />
+                    <ProductForm />
                 </div>
                 <Footer />
             </div>

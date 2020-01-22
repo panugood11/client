@@ -38,7 +38,7 @@ class ProductEdit extends Component {
                     <div>
                         <h2>แก้ไข</h2>
                         {products.saced && (
-                            <div className="aler aler-secondary title" role= "alert">
+                            <div className="alert alert-secondary title" role= "alert">
                                 {products.msg}
                             </div>
                         )

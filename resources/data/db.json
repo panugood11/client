@@ -34,6 +34,12 @@
       "productName": "กาแฟ เฮลตี้่ฟูด",
       "unitPrice": "120",
       "thumbnail": "images/product/6.jpg"
+    },
+    {
+      "productName": "ไก่ทอด v2",
+      "unitPrice": "120",
+      "thumbnail": "images/product/2.jpg",
+      "id": 7
     }
   ],
   "orders": [

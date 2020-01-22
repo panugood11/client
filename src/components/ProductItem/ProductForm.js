@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {connect} from "react-redux";
 import {reduxForm, Field} from "redux-form";
 import FormField from "../common/FormField";
 import {productFormField} from "./formFields";
@@ -37,7 +38,14 @@ function validate(values) {
     });
     return errors;
 }
+function mapStateToProps({ products }){
+    if(products && products.id){
+    return {initialValues : products};
+ } else {
+     return {};
+ }
+}
 
 ProductForm = reduxForm({ validate, form : "productForm"})(ProductForm);
 
-export default ProductForm;
+export default connect(mapStateToProps)(ProductForm);

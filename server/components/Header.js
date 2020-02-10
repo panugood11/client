@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from "next/link";
 
 
 
@@ -37,9 +38,9 @@ class Header extends Component {
                             {this.state.date.toLocaleTimeString()}
                         </h5>
                         <ul className = "list-inline">
-                            <li className= "list-inline-item title">หน้าหลัก</li>
+                            <li className= "list-inline-item title"><Link href="/">หน้าหลัก</Link></li>
                             <li className= "list-inline-item title">|</li>
-                            <li className= "list-inline-item title">เกียวกับเรา</li>
+                            <li className= "list-inline-item title"><Link href="/about">เกียวกับเรา</Link></li>
                             
                         </ul>
                     </div>

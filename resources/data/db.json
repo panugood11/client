@@ -18,7 +18,7 @@
       "id": 4,
       "productId": 4,
       "productName": "เฟรนฟราย",
-      "unitPrice": "120",
+      "unitPrice": "121",
       "thumbnail": "images/product/4.jpg"
     },
     {
@@ -142,6 +142,43 @@
         }
       ],
       "id": 6
+    },
+    {
+      "orderedDate": "2020-01-23T12:25:18.101Z",
+      "totalPrice": 360,
+      "orders": [
+        {
+          "product": {
+            "id": 1,
+            "productId": 1,
+            "productName": "สลัดผัก",
+            "unitPrice": "120",
+            "thumbnail": "images/product/1.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 2,
+            "productId": 2,
+            "productName": "ไก่ทอด",
+            "unitPrice": "120",
+            "thumbnail": "images/product/2.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 4,
+            "productId": 4,
+            "productName": "เฟรนฟราย",
+            "unitPrice": "120",
+            "thumbnail": "images/product/4.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 7
     }
   ]
 }
